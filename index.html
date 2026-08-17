@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indians Worth | Europe & Berlin Assistance</title>
+<meta name="description" content="Indians Worth provides assistance with Europe work permits, visa assistance, jobs in Berlin and housing in Berlin.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#10264d;background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.topbar{background:#061c46;color:#fff;padding:9px 5%;display:flex;justify-content:space-between;align-items:center;font-size:14px}
+.topbar-left,.topbar-right{display:flex;gap:18px;align-items:center}.topbar span{white-space:nowrap}
+nav{background:#fff;min-height:82px;padding:12px 4%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e5e5;position:sticky;top:0;z-index:1000}
+.logo{display:flex;align-items:center;gap:12px}.logo-icon{width:58px;height:58px;border-radius:50%;background:#08295c;color:#f3b21a;display:flex;justify-content:center;align-items:center;font-size:28px}
+.logo h1{font-size:26px;letter-spacing:1px;color:#092658}.logo p{color:#c38a0b;font-size:11px;font-weight:bold;letter-spacing:.6px}
+.nav-links{display:flex;gap:25px;align-items:center}.nav-links a{font-size:15px;color:#1c2d4c}.nav-links a:hover{color:#d59b0b}
+.language{display:flex;border:1px solid #173968;border-radius:7px;overflow:hidden}.language button{border:0;background:#fff;padding:7px 13px;cursor:pointer;font-weight:bold;color:#092658}.language button.active{background:#d69b08;color:#fff}
+.menu-btn{display:none;font-size:26px;cursor:pointer}
+.hero{min-height:510px;display:flex;justify-content:center;align-items:center;text-align:center;background:linear-gradient(rgba(255,255,255,.82),rgba(255,255,255,.94)),url("https://images.unsplash.com/photo-1560930950-5cc20e80e392?auto=format&fit=crop&w=2000&q=80") center/cover}
+.hero-content{max-width:1000px;padding:50px 20px}.hero h2{font-size:clamp(42px,7vw,76px);color:#092658;letter-spacing:2px}.hero .hindi-title{font-size:clamp(21px,3vw,32px);margin:5px 0 20px;color:#1c3154;font-weight:600}.hero-description{font-size:19px;margin-bottom:25px}
+.service-strip{background:#071e4b;color:#fff;border-radius:14px;padding:18px;display:grid;grid-template-columns:repeat(4,1fr);max-width:850px;margin:auto;box-shadow:0 12px 35px rgba(0,0,0,.15)}
+.service-strip div{padding:5px 15px;border-right:1px solid rgba(255,255,255,.5)}.service-strip div:last-child{border-right:0}.service-strip strong{display:block;font-size:17px}.service-strip small{color:#d7e0f0}
+.hero-buttons{margin-top:30px;display:flex;justify-content:center;gap:15px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 28px;border-radius:8px;font-weight:bold;border:0;cursor:pointer;transition:.3s}.btn-gold{background:#d79b08;color:#fff}.btn-gold:hover{background:#b77f00;transform:translateY(-2px)}.btn-blue{background:#092658;color:#fff}.btn-blue:hover{background:#061a3c;transform:translateY(-2px)}
+section{padding:75px 5%}.section-title{text-align:center;margin-bottom:40px}.section-title h2{color:#092658;font-size:34px}.section-title p{color:#666;margin-top:7px}
+.services{background:#fafcff}.service-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.service-card{background:#fff;border:1px solid #d8e1ef;border-radius:12px;padding:30px 20px;text-align:center;transition:.3s}.service-card:hover{transform:translateY(-7px);box-shadow:0 15px 35px rgba(20,50,100,.12)}
+.service-icon{width:70px;height:70px;margin:0 auto 15px;border-radius:50%;background:#edf4ff;display:flex;align-items:center;justify-content:center;font-size:35px}.service-card h3{margin-bottom:10px;color:#092658}.service-card p{color:#606b7d;font-size:14px}.service-link{display:inline-block;margin-top:15px;color:#c58b05;font-weight:bold}
+.pricing{background:#fff}.pricing-container{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:25px}.price-card{border-radius:15px;padding:35px;border:1px solid #d7e0ef}.price-card.gold{background:#fffaf0;border-color:#e4bd62}.price-card.blue{background:#f2f6ff;border-color:#b9cce8}.price-card .icon{font-size:42px;float:left;margin-right:20px}.price-card h3{color:#092658;font-size:22px}.price{color:#d19600;font-size:38px;font-weight:800;margin:5px 0}.blue .price{color:#092658}.price-card p{color:#555}.important-fee{max-width:1000px;margin:25px auto 0;text-align:center;background:#fff8e7;padding:14px;border-radius:8px;color:#694c00}
+.process{background:#f7faff}.process-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.process-step{text-align:center;padding:20px}.step-number{width:55px;height:55px;border-radius:50%;margin:auto auto 15px;background:#092658;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:20px}
+.why{background:#06204d;color:#fff}.why .section-title h2,.why .section-title p{color:#fff}.why-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.why-card{text-align:center}.why-card .big-icon{font-size:42px;margin-bottom:12px}.why-card h3{color:#f1b31b;margin-bottom:8px}.why-card p{color:#d6deeb;font-size:14px}
+.contact{background:#f7faff}.contact-container{max-width:1150px;margin:auto;display:grid;grid-template-columns:2fr 1fr;gap:25px}.contact-info{background:#fff;padding:30px;border-radius:14px;border:1px solid #dbe3ef;display:grid;grid-template-columns:repeat(2,1fr);gap:25px}.contact-item{display:flex;gap:15px;align-items:flex-start}.contact-item .icon{font-size:30px}.contact-item h3{font-size:16px;color:#092658}.contact-item p{font-size:14px;color:#59677d}
+.contact-box{background:#092658;color:#fff;padding:35px;border-radius:14px;text-align:center}.contact-box h2{margin-bottom:12px}.contact-box p{color:#d8e0ee;margin-bottom:20px}
+.disclaimer{background:#061a3e;color:#cbd5e5;padding:20px 5%;text-align:center;font-size:12px}footer{background:#04142f;color:#fff;padding:25px 5%;display:flex;justify-content:space-between;gap:20px;align-items:center;font-size:13px}
+.whatsapp{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:flex;justify-content:center;align-items:center;font-size:28px;box-shadow:0 5px 20px rgba(0,0,0,.25);z-index:999}.whatsapp:hover{transform:scale(1.08)}
+body.hindi .english{display:none}body:not(.hindi) .hindi{display:none}
+@media(max-width:900px){.topbar{display:none}.nav-links{display:none;position:absolute;left:0;right:0;top:82px;background:#fff;flex-direction:column;padding:25px;box-shadow:0 10px 25px rgba(0,0,0,.1)}.nav-links.show{display:flex}.menu-btn{display:block}.service-strip{grid-template-columns:repeat(2,1fr)}.service-strip div:nth-child(2){border-right:0}.service-grid{grid-template-columns:repeat(2,1fr)}.process-grid,.why-grid{grid-template-columns:repeat(2,1fr)}.contact-container{grid-template-columns:1fr}}
+@media(max-width:600px){.logo h1{font-size:19px}.logo p{font-size:8px}.logo-icon{width:45px;height:45px;font-size:21px}.hero{min-height:600px}.service-strip{grid-template-columns:1fr}.service-strip div{border-right:0;border-bottom:1px solid rgba(255,255,255,.3);padding:10px}.service-strip div:last-child{border-bottom:0}.service-grid,.pricing-container,.process-grid,.why-grid,.contact-info{grid-template-columns:1fr}section{padding:55px 5%}.price-card{padding:25px}footer{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-left"><span>📍 Delhi</span><span>|</span><span>Hisar</span><span>|</span><span>Jaipur</span></div><div class="topbar-right"><span>📞 +91 92177 50094</span><span>✉️ indiansberlin72@gmail.com</span><span>🟢 WhatsApp Group</span></div></div>
+<nav>
+<a href="#home" class="logo"><div class="logo-icon">✈️</div><div><h1>INDIANS WORTH</h1><p>YOUR TRUSTED PARTNER FOR EUROPE & BERLIN</p></div></a>
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+<div class="nav-links" id="navLinks">
+<a href="#home"><span class="english">Home</span><span class="hindi">होम</span></a>
+<a href="#services"><span class="english">Our Services</span><span class="hindi">हमारी सेवाएँ</span></a>
+<a href="#pricing"><span class="english">Fees & Charges</span><span class="hindi">फीस और शुल्क</span></a>
+<a href="#process"><span class="english">Process</span><span class="hindi">प्रक्रिया</span></a>
+<a href="#about"><span class="english">About Us</span><span class="hindi">हमारे बारे में</span></a>
+<a href="#contact"><span class="english">Contact Us</span><span class="hindi">संपर्क करें</span></a>
+<div class="language"><button id="englishBtn" class="active" onclick="setLanguage('english')">EN</button><button id="hindiBtn" onclick="setLanguage('hindi')">हिंदी</button></div>
+</div>
+</nav>
+
+<section class="hero" id="home"><div class="hero-content">
+<h2>INDIANS WORTH</h2>
+<div class="english hero-description">Your trusted assistance partner for Europe & Berlin.</div>
+<div class="hindi hindi-title">यूरोप और बर्लिन में आपके सपनों का भरोसेमंद साथी</div>
+<div class="hindi hero-description">हम आपको सही मार्गदर्शन और सहायता प्रदान करते हैं।</div>
+<div class="english hero-description">We provide guidance and assistance for your journey towards Europe and Berlin.</div>
+<div class="service-strip">
+<div>📄<strong>Work Permit</strong><small>Europe Assistance</small></div>
+<div>✈️<strong>Visa</strong><small>Assistance from India</small></div>
+<div>💼<strong>Jobs</strong><small>in Berlin</small></div>
+<div>🏠<strong>Housing</strong><small>in Berlin</small></div>
+</div>
+<div class="hero-buttons"><a href="#contact" class="btn btn-gold">💬 <span class="english">Book Consultation – ₹5,000</span><span class="hindi">परामर्श बुक करें – ₹5,000</span></a><a href="#services" class="btn btn-blue"><span class="english">View Our Services</span><span class="hindi">हमारी सेवाएँ देखें</span></a></div>
+</div></section>
+
+<section class="services" id="services"><div class="section-title"><h2><span class="english">Our Services</span><span class="hindi">हमारी सेवाएँ</span></h2><p><span class="english">Assistance and guidance for your Europe & Berlin journey</span><span class="hindi">यूरोप और बर्लिन यात्रा के लिए सहायता और मार्गदर्शन</span></p></div>
+<div class="service-grid">
+<div class="service-card"><div class="service-icon">🇪🇺</div><h3><span class="english">Europe Work Permit</span><span class="hindi">यूरोप वर्क परमिट सहायता</span></h3><p><span class="english">Guidance and assistance related to work permit opportunities in European countries.</span><span class="hindi">यूरोप के विभिन्न देशों में वर्क परमिट से संबंधित मार्गदर्शन और सहायता।</span></p><a href="#contact" class="service-link">Learn More →</a></div>
+<div class="service-card"><div class="service-icon">✈️</div><h3><span class="english">Visa Assistance</span><span class="hindi">वीज़ा सहायता</span></h3><p><span class="english">Assistance with visa-related documentation, information and application guidance.</span><span class="hindi">वीज़ा संबंधी दस्तावेज़, जानकारी और आवेदन प्रक्रिया में सहायता।</span></p><a href="#contact" class="service-link">Learn More →</a></div>
+<div class="service-card"><div class="service-icon">💼</div><h3><span class="english">Jobs in Berlin</span><span class="hindi">बर्लिन में जॉब्स</span></h3><p><span class="english">Assistance and guidance for people looking for employment opportunities in Berlin.</span><span class="hindi">बर्लिन में रोजगार के अवसर तलाशने वाले लोगों के लिए मार्गदर्शन और सहायता।</span></p><a href="#contact" class="service-link">Learn More →</a></div>
+<div class="service-card"><div class="service-icon">🏠</div><h3><span class="english">Housing in Berlin</span><span class="hindi">बर्लिन में रहने की व्यवस्था</span></h3><p><span class="english">Assistance with finding suitable housing options according to your requirements.</span><span class="hindi">आपकी आवश्यकताओं के अनुसार बर्लिन में रहने के लिए उपयुक्त विकल्प खोजने में सहायता।</span></p><a href="#contact" class="service-link">Learn More →</a></div>
+</div></section>
+
+<section class="pricing" id="pricing"><div class="section-title"><h2><span class="english">Fees & Charges</span><span class="hindi">फीस और शुल्क</span></h2><p><span class="english">Charges applicable for each assistance service</span><span class="hindi">प्रत्येक सहायता सेवा के लिए लागू शुल्क</span></p></div>
+<div class="pricing-container">
+<div class="price-card gold"><div class="icon">💬</div><h3><span class="english">Consultation / Booking Fee</span><span class="hindi">परामर्श / बुकिंग शुल्क</span></h3><div class="price">₹5,000</div><p><span class="english">Initial fee required to begin the consultation and booking process.</span><span class="hindi">परामर्श और बुकिंग प्रक्रिया शुरू करने के लिए प्रारंभिक शुल्क।</span></p></div>
+<div class="price-card blue"><div class="icon">📋</div><h3><span class="english">Complete Process Registration</span><span class="hindi">सम्पूर्ण प्रक्रिया पंजीकरण शुल्क</span></h3><div class="price">₹20,000</div><p><span class="english">Registration fee for proceeding with the complete selected assistance service.</span><span class="hindi">चुनी गई सहायता सेवा की पूरी प्रक्रिया के लिए पंजीकरण शुल्क।</span></p></div>
+</div>
+<div class="important-fee">ℹ️ <span class="english">Other applicable charges such as government fees, visa fees, documentation, translation or other third-party charges may be additional.</span><span class="hindi">सरकारी शुल्क, वीज़ा शुल्क, दस्तावेज़, अनुवाद या अन्य तृतीय-पक्ष शुल्क अलग से लागू हो सकते हैं।</span></div>
+</section>
+
+<section class="process" id="process"><div class="section-title"><h2><span class="english">How It Works</span><span class="hindi">हमारी प्रक्रिया</span></h2></div><div class="process-grid">
+<div class="process-step"><div class="step-number">1</div><h3><span class="english">Contact Us</span><span class="hindi">संपर्क करें</span></h3><p><span class="english">Contact our team for your requirements.</span><span class="hindi">अपनी आवश्यकता के लिए हमारी टीम से संपर्क करें।</span></p></div>
+<div class="process-step"><div class="step-number">2</div><h3><span class="english">Consultation</span><span class="hindi">परामर्श</span></h3><p><span class="english">Discuss your requirements and receive guidance.</span><span class="hindi">अपनी आवश्यकता पर चर्चा करें और मार्गदर्शन प्राप्त करें।</span></p></div>
+<div class="process-step"><div class="step-number">3</div><h3><span class="english">Registration</span><span class="hindi">पंजीकरण</span></h3><p><span class="english">Register for your selected assistance service.</span><span class="hindi">चुनी गई सहायता सेवा के लिए पंजीकरण करें।</span></p></div>
+<div class="process-step"><div class="step-number">4</div><h3><span class="english">Assistance</span><span class="hindi">सहायता</span></h3><p><span class="english">Receive guidance throughout the applicable process.</span><span class="hindi">संबंधित प्रक्रिया में आवश्यक मार्गदर्शन प्राप्त करें।</span></p></div>
+</div></section>
+
+<section class="why" id="about"><div class="section-title"><h2><span class="english">Why Choose Indians Worth?</span><span class="hindi">हमें क्यों चुनें?</span></h2><p><span class="english">Guidance designed for Indians looking towards Europe and Berlin.</span><span class="hindi">यूरोप और बर्लिन की ओर अवसर तलाशने वाले भारतीयों के लिए सहायता और मार्गदर्शन।</span></p></div>
+<div class="why-grid">
+<div class="why-card"><div class="big-icon">👥</div><h3><span class="english">Personal Guidance</span><span class="hindi">व्यक्तिगत मार्गदर्शन</span></h3><p><span class="english">Assistance based on your requirements.</span><span class="hindi">आपकी आवश्यकताओं के अनुसार सहायता।</span></p></div>
+<div class="why-card"><div class="big-icon">📋</div><h3><span class="english">Process Support</span><span class="hindi">प्रक्रिया सहायता</span></h3><p><span class="english">Guidance throughout the applicable process.</span><span class="hindi">संबंधित प्रक्रिया के दौरान मार्गदर्शन।</span></p></div>
+<div class="why-card"><div class="big-icon">🛡️</div><h3><span class="english">Clear Charges</span><span class="hindi">स्पष्ट शुल्क</span></h3><p><span class="english">Clear consultation and registration charges.</span><span class="hindi">परामर्श और पंजीकरण शुल्क की स्पष्ट जानकारी।</span></p></div>
+<div class="why-card"><div class="big-icon">🤝</div><h3><span class="english">Dedicated Assistance</span><span class="hindi">सम्पूर्ण सहायता</span></h3><p><span class="english">We assist you through the relevant steps.</span><span class="hindi">संबंधित चरणों में आपकी सहायता करते हैं।</span></p></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="section-title"><h2><span class="english">Contact Us</span><span class="hindi">संपर्क करें</span></h2><p><span class="english">Start your consultation with Indians Worth.</span><span class="hindi">Indians Worth के साथ अपना परामर्श शुरू करें।</span></p></div>
+<div class="contact-container"><div class="contact-info">
+<div class="contact-item"><div class="icon">📞</div><div><h3><span class="english">Phone / Call</span><span class="hindi">फोन / कॉल</span></h3><p><a href="tel:+919217750094">+91 92177 50094</a></p></div></div>
+<div class="contact-item"><div class="icon">🟢</div><div><h3>WhatsApp Group</h3><p><span class="english">Contact us to get information about joining our WhatsApp group.</span><span class="hindi">हमारे WhatsApp ग्रुप से जुड़ने के लिए हमसे संपर्क करें।</span></p></div></div>
+<div class="contact-item"><div class="icon">✉️</div><div><h3>Email</h3><p><a href="mailto:indiansberlin72@gmail.com">indiansberlin72@gmail.com</a></p></div></div>
+<div class="contact-item"><div class="icon">📍</div><div><h3><span class="english">Office Locations</span><span class="hindi">ऑफिस स्थान</span></h3><p>Delhi | Hisar | Jaipur</p></div></div>
+</div>
+<div class="contact-box"><h2><span class="english">Book Your Consultation</span><span class="hindi">परामर्श बुक करें</span></h2><p><span class="english">Begin your Europe or Berlin journey with professional guidance.</span><span class="hindi">सही मार्गदर्शन के साथ यूरोप या बर्लिन की अपनी यात्रा शुरू करें।</span></p><a href="https://wa.me/919217750094" target="_blank" class="btn btn-gold">💬 WhatsApp – ₹5,000</a><br><br><a href="tel:+919217750094" class="btn btn-blue">📞 <span class="english">Call Us</span><span class="hindi">कॉल करें</span></a></div>
+</div></section>
+
+<div class="disclaimer"><span class="english">Important: Indians Worth provides consultancy, guidance and assistance services. Visa, work permit, employment and housing outcomes are subject to the decisions, requirements and availability of relevant authorities, employers, landlords and other third parties. No approval or employment outcome is guaranteed. Additional government, embassy, documentation and third-party charges may apply separately.</span><span class="hindi">महत्वपूर्ण: Indians Worth परामर्श, मार्गदर्शन और सहायता सेवाएँ प्रदान करता है। वीज़ा, वर्क परमिट, नौकरी और आवास से संबंधित परिणाम संबंधित सरकारी प्राधिकरण, नियोक्ता, मकान मालिक और अन्य तृतीय पक्षों के निर्णय, आवश्यकताओं और उपलब्धता पर निर्भर करते हैं। किसी भी स्वीकृति या नौकरी की गारंटी नहीं दी जाती। अतिरिक्त सरकारी, दूतावास, दस्तावेज़ और तृतीय-पक्ष शुल्क अलग से लागू हो सकते हैं।</span></div>
+<footer><div>© 2026 Indians Worth. All Rights Reserved.</div><div>Indians in Berlin</div></footer>
+<a href="https://wa.me/919217750094" target="_blank" class="whatsapp" title="Contact on WhatsApp">💬</a>
+<script>
+function setLanguage(language){
+if(language==="hindi"){document.body.classList.add("hindi");document.getElementById("englishBtn").classList.remove("active");document.getElementById("hindiBtn").classList.add("active");document.documentElement.lang="hi";}
+else{document.body.classList.remove("hindi");document.getElementById("hindiBtn").classList.remove("active");document.getElementById("englishBtn").classList.add("active");document.documentElement.lang="en";}
+}
+function toggleMenu(){document.getElementById("navLinks").classList.toggle("show")}
+document.querySelectorAll(".nav-links a").forEach(link=>link.addEventListener("click",()=>document.getElementById("navLinks").classList.remove("show")));
+</script>
+</body>
+</html>
